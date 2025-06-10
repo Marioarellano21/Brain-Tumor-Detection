@@ -6,6 +6,8 @@ ENV/
 .env/
 virtualenv/
 myenv/
+directml/
+plaidml/
 
 # Archivos de Python
 __pycache__/
@@ -32,9 +34,9 @@ pip-delete-this-directory.txt
 data/
 datasets/
 *.csv
-*.h5
-*.hdf5
-*.pkl
+#*.h5
+#*.hdf5
+#*.pkl
 *.pickle
 models/
 checkpoints/

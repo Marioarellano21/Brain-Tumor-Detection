@@ -1,0 +1,23 @@
+python -m venv brain_tumor_plaidml
+brain_tumor_plaidml\Scripts\activate
+
+pip install keras==2.2.4 plaidml==0.7.0 plaidml-keras==0.7.0
+pip install opencv-python pandas matplotlib seaborn scikit-learn imbalanced-learn tqdm pillow h5py numpy==1.24.3
+
+o 
+
+
+# Instalación de una sola vez
+pip install keras==2.2.4 plaidml==0.7.0 plaidml-keras==0.7.0 opencv-python pandas matplotlib seaborn scikit-learn imbalanced-learn tqdm pillow h5py numpy==1.24.3
+
+
+plaidml-setup (activar AMD GPU)
+
+
+python -c "
+import plaidml.keras
+plaidml.keras.install_backend()
+import keras
+print('✅ PlaidML funcionando')
+print('Keras:', keras.__version__)
+"

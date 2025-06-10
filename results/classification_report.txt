@@ -1,0 +1,16 @@
+REPORTE DE CLASIFICACIÓN - ResNet50 Fase 1
+==================================================
+
+              precision    recall  f1-score   support
+
+     Healthy       0.94      0.97      0.96       200
+       Tumor       0.98      0.96      0.97       300
+
+    accuracy                           0.96       500
+   macro avg       0.96      0.97      0.96       500
+weighted avg       0.96      0.96      0.96       500
+
+
+AUC Score: 0.9928
+Loss: 0.1655
+Accuracy: 0.9640
